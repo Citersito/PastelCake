@@ -1,0 +1,230 @@
+/* Globales */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFDFA;
+    color:#6141FF ;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+/* img {
+    max-width: 15rem;
+    max-height: 15rem;
+} */
+a {
+    color: #5ce1e6;
+    font-weight: bold;
+    text-decoration: none;
+}
+h1{
+    display: none;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.4rem;
+}
+.centrar{
+    text-align: center;
+}
+
+/* Menu */
+
+.barra_menu {
+    align-items: center;
+    padding: 1vw;
+    width: 100%;
+    gap: 1em;
+    background-color: #FFF3E0;
+    text-align: center;
+}
+li.list li.act {
+    list-style: none;
+    padding: 2rem;
+    border-radius: 5%;
+}
+.navlink{
+font-size: 1.6rem;   
+}
+.logo{
+    max-width: 15rem;
+}
+.active {
+    color: #ff66c4;
+}
+li.list:hover {
+    background-color: #ff66c4;
+    transition: .5s;
+}
+/* inicio */
+
+#inicio{
+    margin-top: 3rem;
+    text-align: center;
+    gap: 2rem;
+    
+}
+#inicioTexto{
+    font-style: italic;
+}
+#inicioTexto_1{
+    color: #ff66c4;
+    font-size: 1.7rem;
+}
+#inicioTexto_2{
+    font-weight: bold;
+    font-style: italic;
+    color: #ff66c4;
+    font-size: 2rem;
+}
+.inicio_imagen{
+    width: 90%;
+    box-shadow: 8px 6px 21px -9px rgba(0,0,0,0.86);
+-webkit-box-shadow: 8px 6px 21px -9px rgba(0,0,0,0.86);
+-moz-box-shadow: 8px 6px 21px -9px rgba(0,0,0,0.86);
+}
+/* Contenedor */
+.container {
+    max-width: 70vw;
+    margin: 3rem auto;
+} 
+.imagenPastel{
+    margin-top: 0.5rem;
+    width: 40vw;
+}
+.nombrePastel{
+    margin-top: 3rem;
+}
+.precio{
+    font-weight: bold;
+    color: #ff66c4;
+    font-size: 3rem;
+}
+#pedidosImagen{
+    display: none;
+}
+/* Media queries */
+@media screen and (min-width: 480px) {
+    /* Globales */
+    .imagenPastel {
+        max-width: 15vw;
+        max-height: 15vh;
+    }
+    h2{
+        font-size: 2.9rem;
+    }
+    h3{
+        font-size: 2.4rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    /* Menu */
+    .barra_menu {
+        display: flex;
+        justify-content: space-around;
+    }
+    li.list,
+    li.act {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .logo {
+        max-width: 17rem;
+    }
+    li {
+        display: inline;
+        text-align: center;
+        margin: 0;
+    }
+    /* Inicio */
+    #inicio{
+        display: flex;
+        max-width: 90vw;
+        margin: auto;
+        margin-top: 7rem;
+    }
+    .inicio_imagen{
+        width: 46vw;
+    }
+    /* Contenedor */
+    .menuPedidos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* Pedidos */
+    .pedidos_form{
+        font-size: 2rem;
+        display: flex;
+    }
+    #pedidosImagen{
+        max-width: 40vw;
+        max-height: 40vh;
+        display: block;
+    }
+    .pedidos{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.mapa1{
+    max-width: 70vw;
+    height: 70vh;
+    margin: 0;
+}
+
+#sabor{
+    display: none;
+}
+form{
+    border-radius: 5%;
+}
+#colorPastel, #saborOption{
+    padding: 1rem;
+    border-radius: 3%;
+    font-size: 1.6rem;
+    font-family: 'Popins', sans-serif;
+}
+.formP{
+    padding:1rem;
+}
+button{
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5%;
+    border-color: #ff66c4;
+    border-style: solid;
+    color: #ff66c4;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.pedido_titulo, #contacto{
+    color: #ff66c4;
+    font-size: 3rem;
+}
+
+input [type="date"]{
+    padding: 1rem;
+}
+
+/* Footer */
+#footer {
+    background-color: #FFF3E0;
+    height: 5rem;
+    color: #ff66c4;
+    font-weight: bold;
+}
+
+#footer_texto_2{
+    color: #5ce1e6;
+}

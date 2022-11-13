@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PastelCake</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>PastelCake</h1>
+        <nav class="barra_menu" id="menu">
+            <div class="barra_imagen">
+                <img src="/img/pastelCake.svg" alt="logo" class="logo">
+            </div>
+            <div class="barra_list">
+                <ul class="navlink">
+                    <li class="act"><a class="active" href="#">Inicio</a></li>
+                    <li class="list"><a href="#contacto">Contacto</a> </li>
+                    <li class="list"><a href="#menuPedidos">Menú</a> </li>
+                    <li class="list"><a href="#pedidos">Pedidos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="inicio" class="inicio">
+        <div>
+            <img src="/img/slider_2.webp" alt="imagen de pastel" class="inicio_imagen">
+        </div>
+        <div class="inicioTexto">
+            <h2 id="inicioTexto_0">Personaliza tu pastel</h2>
+            <p id="inicioTexto_1">En PastelCake puedes personalizar tus pasteles para tu evento, puedes elegir desde el
+                color, ingredientes, sabores y todo lo que imagenes lo tendras en un pastel</p>
+            <p id="inicioTexto_2">Y por un precio ESPECIAL</p>
+        </div>
+    </section>
+    <main class="container">
+        <h2 class="centrar">Nuestros Pasteles</h2>
+        <section id="menuPedidos" class="menuPedidos centrar">
+            <div>
+                <h3 class="nombrePastel">CheeseCake</h3>
+                <img class="imagenPastel"
+                    src="https://www.terecazola.com/wp-content/uploads/2017/03/Cheesecake-NY-300x300.png"
+                    alt="Pastel de queso">
+                <p class="precio">$200</p>
+                <p>Pastel de queso.</p>
+            </div>
+            <div>
+                <h3 class="nombrePastel">ChocoCake</h3>
+                <img class="imagenPastel"
+                    src="https://i0.wp.com/pastelesdlulu.com/wp-content/uploads/2013/11/chocolatecake7.png"
+                    alt="Pastel de ">
+                <p class="precio">$200</p>
+                <p>Pastel con base y relleno de chocolate.</p>
+            </div>
+            <div>
+                <h3 class="nombrePastel">OreoCake</h3>
+                <img class="imagenPastel"
+                    src="data:image/jpeg;base64,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"
+                    alt="Pastel de oreo">
+                <p class="precio">$200</p>
+                <p>Pastel relleno de oreo.</p>
+            </div>
+            <div>
+                <h3 class="nombrePastel">PeCake</h3>
+                <img class="imagenPastel"
+                    src="https://i0.wp.com/delitutti.com/nino/img/pastel.png?resize=640%2C473&ssl=1"
+                    alt="Pastel pequeño ">
+                <p class="precio">$420</p>
+                <p>Pastel de 7 rebanadas de 20cm</p>
+            </div>
+            <div>
+                <h3 class="nombrePastel">Medium Cake</h3>
+                <img class="imagenPastel"
+                    src="https://cinco20.mx/wp-content/uploads/2022/02/pastel-cookies-and-cream.png"
+                    alt="Pastel mediano ">
+                <p class="precio">$470</p>
+                <p>Pastel de 8 rebanadas de 25cm</p>
+            </div>
+            <div>
+                <h3 class="nombrePastel">El gran Cake</h3>
+                <img class="imagenPastel"
+                    src="https://d97bb24746.cbaul-cdnwnd.com/171051377054914b4e59e2df2d6cecdd/200000037-9008a9008d/1.2.png?ph=d97bb24746"
+                    alt="Pastel grande">
+                <p class="precio">$550</p>
+                <p>Pastel de 15 rebanadas de 35cm</p>
+            </div>
+            </div>
+        </section>
+        <h2 class="centrar pedido_titulo">Personaliza tu pedido.</h2>
+        <section class="pedidos container" id="pedidos">
+            <div class="pedidos_form">
+                <form>
+                    <h3>¿De qué color tu pastel?</h3>
+                    <select id="colorPastel">
+                        <option value="Azul">Azul</option>
+                        <option value="Rosa">Rosa</option>
+                        <option value="Verde">Verde</option>
+                        <option value="Rojo">Rojo</option>
+                        <option value="Amarillo">Amarillo</option>
+                        <option value="Blanco">Blanco</option>
+                        <option value="Negro">Negro</option>
+                        <option value="Morado">Morado</option>
+                    </select>
+
+                    <h3>Tipo de pan...</h3>
+                    <input type="radio" name="Pan" id="PanSeco"> Pan Seco
+                    <input type="radio" name="Pan" id="TresLeches"> Tres Leches
+                    <h3>Sabor...</h3>
+                    <select name="sabor" id="saborOption">
+                        <option value="Fresa">Fresa</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Oreo">Oreo</option>
+                        <option value="Vainilla">Vainilla</option>
+                        <option value="Lechera">Lechera</option>
+                        <option value="Triple Chocolate">Triple Chocolate</option>
+                        <option value="Durazno">Durazno</option>
+                        <option value="Mango">Mango</option>
+                        <option value="Frutos">Frutos</option>
+                        <option value="Mazapan">Mazapan</option>
+                        <option value="Guayaba">Guayaba</option>
+                    </select>
+
+                    <!-- <input type="checkbox" name="sabor" id="fresa" value="fresa">
+                    <label for="fresa">Fresa</label>
+                    <input type="checkbox" name="sabor" id="Chocolate">
+                    <label for="Chocolate">Chocolate</label>
+                    <input type="checkbox" name="sabor" id="Oreo">
+                    <label for="Oreo">Oreo</label>
+                    <input type="checkbox" name="sabor" id="Vainilla">
+                    <label for="Vainilla">Vainilla</label>
+                    <input type="checkbox" name="sabor" id="Lechera">
+                    <label for="Lechera">Lechera</label>
+                    <input type="checkbox" name="sabor" id="TripleChocolate">
+                    <label for="Triple Chocolate">Triple Chocolate</label>
+                    <br>
+                    <input type="checkbox" name="sabor" id="Durazno">
+                    <label for="Durazno">Durazno</label>
+                    <input type="checkbox" name="sabor" id="Mango">
+                    <label for="Mango">Mango</label>
+                    <input type="checkbox" name="sabor" id="Frutos">
+                    <label for="Frutos">Frutos</label>
+                    <input type="checkbox" name="sabor" id="Mazapan">
+                    <label for="Mazapan">Mazapan</label>
+                    <input type="checkbox" name="sabor" id="Guayaba">
+                    <label for="Guayaba">Guayaba</label>-->
+                    <h3>¿Para cuando necesita el pastel?</h3>
+                    <input class="formP" type="date">
+                    <label for="Nombre">
+
+                        <h3> Nombre:</h3>
+                    </label>
+                    <input class="formP" type="text" name="Nombre" placeholder="Cual es tu nombre?">
+                    <label for="Telefono">
+
+                        <h3> Telefono:</h3>
+                    </label>
+                    <input class="formP" type="text" name="Telefono" placeholder="Cual es tu Telefono?">
+                    <label for="Direccion">
+
+                        <h3> Dirección</h3>
+                    </label>
+                    <input class="formP" type="text" name="Direccion" placeholder="Cual es tu Direccion?">
+                    <br>
+                    <button> Enviar pedido </button>
+            </div>
+            </form>
+            <div class="pedidos_imagen">
+                <img src="/img/slider_3.webp" alt="" id="pedidosImagen">
+            </div>
+        </section>
+        <section id="contacto" class="container centrar">
+            <h2>Contacto</h2>
+            <h3>Nos puedes encontrar en...</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57522.23162558986!2d-100.34974266935744!3d25.699805652734597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866295dc3392bc03%3A0xbe84f5970a2ae634!2sPasteler%C3%ADa%20Lety!5e0!3m2!1ses-419!2smx!4v1668299913117!5m2!1ses-419!2smx"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="mapa1"></iframe>
+            <p>Av. del rio 921 Monterrey, NL, Mexico</p>
+            <p>Telefono: 819991234565</p>
+            <P>Horario Lunes-Sabado 12pm-8pm</P>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="centrar">
+            <p id="footer_texto">Todos los derechos reservados </p>
+            <p>Pastel<span id="footer_texto_2">Cake</span> </p>
+        </div>
+    </footer>
+</body>
+<script src="/js/main.js"></script>
+
+</html>
